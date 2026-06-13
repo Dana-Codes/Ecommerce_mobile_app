@@ -47,7 +47,7 @@ export default function Home() {
             horizontal
             pagingEnabled
             showsHorizontalScrollIndicator={false}
-            className="w-full height-48 rounded-xl"
+            className="w-full h-48 rounded-xl"
             scrollEventThrottle={16}
             onScroll={(e) => {
               const slide = Math.ceil(
@@ -102,7 +102,7 @@ export default function Home() {
                 }`}
               />
             ))}
-            <Text></Text>
+            
           </View>
         </View>
 
